@@ -14,7 +14,6 @@ class Config:
     CHID = int(os.getenv("CHID", "-1001925074421"))
     SUDO = list(map(int, os.getenv("SUDO", "7444596223").split()))
     MONGO_URI = os.getenv("mongodb+srv://Acecricbot:<dx9rky68E0WrJtfx>@cluster0.5m3wooa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-
 cfg = Config()
 
 
