@@ -1,6 +1,6 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @acecricketguru
+# Subscribe YouTube Channel For Amazing Bot @acecricketguru
+# Ask Doubt on telegram @acecricketguru
 
 
 from os import path, getenv
@@ -13,7 +13,7 @@ class Config:
     FSUB = os.getenv("FSUB", "Acecricketpro")
     CHID = int(os.getenv("CHID", "-1001925074421"))
     SUDO = list(map(int, os.getenv("SUDO", "7444596223").split()))
-    MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://acecricketguru:<password>@cluster0.dxqtcyr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    MONGO_URI = os.getenv("mongodb+srv://Acecricbot:<dx9rky68E0WrJtfx>@cluster0.5m3wooa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 cfg = Config()
 
